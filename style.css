@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+}
+.conteudo{
+    display: grid;
+    grid-auto-flow: column;
+    scroll-behavior: auto;
+    gap: 1.2rem;
+    overflow-y: auto;
+    overscroll-behavior-x: contain;
+    width: 370px;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 25px;
+    column-gap: 20px;
+    margin: 125px 0 0 320px;
+}
+.card1{
+    flex: 0 0 100%;
+    padding: 30px;
+    scroll-snap-align: start;
+    border-radius: 30px;
+    background-color: orange;
+    width: 300px;
+}.card2{
+    flex: 0 0 100%;
+    padding: 30px;
+    scroll-snap-align: start;
+    border-radius: 30px;
+    background-color: skyblue;
+    width: 300px;
+}
+.card3{
+    flex: 0 0 100%;
+    padding: 30px;
+    scroll-snap-align: start;
+    border-radius: 30px;
+    background-color: yellow;
+    width: 300px;
+}
+.card4{
+    flex: 0 0 100%;
+    padding: 30px;
+    scroll-snap-align: start;
+    border-radius: 30px;
+    background-color: green;
+    width: 300px;
+}
+.card5{
+    flex: 0 0 100%;
+    padding: 30px;
+    scroll-snap-align: start;
+    border-radius: 30px;
+    background-color: #bc7aff;
+    width: 300px;
+}
+.card6{
+    flex: 0 0 100%;
+    padding: 30px;
+    scroll-snap-align: start;
+    border-radius: 30px;
+    background-color: green;
+    width: 300px;
+}
